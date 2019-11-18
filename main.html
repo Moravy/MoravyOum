@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Moravy Oum</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/main.css">
+    <link rel="stylesheet" type="text/css" href="assets/aboutme.css">
+    <link rel="stylesheet" type="text/css" href="assets/nav.css">
+    <link rel="stylesheet" type="text/css" href="assets/project.css">
+    <link rel="stylesheet" type="text/css" href="assets/contact.css">
+    <link href="https://fonts.googleapis.com/css?family=Cairo&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </head>
+  <body >
+    <!-- Checklist:
+
+    - color
+    - make sure everything is responsive
+    - connect contact page to EMAIL
+    - link project to github
+    - link all the Icons
+    - attach Resume
+    - maybe @ something to the empty page
+    - add button for easy scrolling -->
+
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><span class="fa fa-arrow-up" aria-hidden="true"></span></button>
+    <script>//Get the button:
+mybutton = document.getElementById("myBtn");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0; // For Safari
+  document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+}
+</script>
+    <main id="main">
+      <div class="maintext">
+        <h1 class="fonts ">Moravy Oum</h1>
+        <h3 class=" fonts2">Looking for a <span class="changeman">dev</span>?</h3>
+
+
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-google" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+      </div>
+    </main>
+    <div class="fornav">
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark " style="background-color: rgb(47,47,47);">
+    <a class="navbar-brand container mr-auto" href="#">Moravy Oum</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+      <div class="navbar-nav ml-auto">
+        <a class="mr-5 nav-item nav-link" href="#main">Home <span class="sr-only">(current)</span></a>
+        <a class="mr-5 nav-item nav-link" href="#project">Project</a>
+        <a class="mr-5 nav-item nav-link" href="#aboutme">About me</a>
+        <a class=" nav-item nav-link " href="#contact">Contact me</a>
+      </div>
+    </div>
+  </nav>
+
+
+    <div id="project" class=' project'>
+      <h4 class="title"> My project </h4>
+        <div class="container-fluid containers">
+
+            <div class="container1">
+            <a href="https://github.com/Moravy/Information-technology-capstone">
+            <img class="image" src="assets/images/mainbg2.jpg">
+            <div class="overlay2">
+              <div class="text2">OpenStreetMap</div>
+              <description > AWS, Shell script, OSM-carto, and Ansible  </description>
+            </div>
+            <div class="overlay">
+              <div class="text">OpenStreetMap</div>
+              <description>Create Openstreetmap and hosting it on aws. This task uses AWS EC3, Linux Scripting, and Ansible for automation </description>
+            </div></a>
+          </div>
+
+          <div class="container1">
+            <a href="https://github.com/Moravy/Security-Camera-Pi-camera-">
+            <img class="image" src="assets/images/mainbg2.jpg">
+            <div class="overlay2">
+              <div class="text2">Security Camera</div>
+              <description > AWS rekognition and S3, python, and Rasberry pi</description>
+            </div>
+            <div class="overlay">
+              <div class="text">Security Camera</div>
+              <description>Create a security Camera that recognise faces and send alert if face is not recognise. This system uses AWS rekognition and S3, python, and Rasberry pi.   </description>
+            </div></a>
+          </div>
+
+          <div class="container1">
+            <a href="#">
+            <img class="image" src="assets/images/mainbg2.jpg">
+            <div class="overlay2">
+              <div class="text2">My website</div>
+              <description > HTML/CSS, AWS, and python </description>
+            </div>
+            <div class="overlay">
+              <div class="text">My website</div>
+              <description> </description>
+            </div>
+           </a>
+          </div>
+
+          <div class="container1">
+            <a href="https://github.com/Moravy/react-app">
+            <img class="image" src="assets/images/mainbg2.jpg">
+            <div class="overlay2">
+              <div class="text2">Myweb/Reach</div>
+              <description > I am a web developer specialise in cloud </description>
+            </div>
+            <div class="overlay">
+              <div class="text">Myweb/React</div>
+              <description >Create a multipages web resume using react. This website uses, React, HTML/CSS, and Javascript</description>
+            </div></a>
+          </div>
+
+          <div class="container1">
+            <a href="#">
+            <img class="image" src="assets/images/mainbg2.jpg">
+            <div class="overlay2">
+              <div class="text2">Coming soon</div>
+              <description > </description>
+            </div>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+              <description> </description>
+            </div></a>
+          </div>
+
+          <div class="container1">
+            <a href="#">
+            <img class="image" src="assets/images/mainbg2.jpg">
+            <div class="overlay2">
+              <div class="text2">Coming soon</div>
+              <description >  </description>
+            </div>
+            <div class="overlay">
+              <div class="text">Hello World</div>
+              <description> </description>
+            </div></a>
+          </div>
+    </div>
+  </div>
+
+  <!-- aboutme -->
+    <div id="aboutme"class='aboutme'>
+      <h4 class="title"> About me </h4>
+      <div class="something container">
+      <p >My name is Moravy and I am currently a 3rd year Information Technology and Computer Science student at Massey University.<br>During my study, I have worked and familiarized myself with different languages and software.
+          <br>These languages include Python, HTML/CSS, SQL and C/C++. <br>While studying, I had the opportunity to learn and work with cloud technologies at my university and through my personal projects such as this website hosted by AWS.</p>
+          <a class="example_b" href="add-website-here" target="_blank" rel="nofollow noopener">Resume/CV</a>
+    </div>
+  </div>
+  <div id="contact"class="contact">
+    <h4 class="title pt-5"> Contact me</h4>
+    <section id="contact">
+
+
+  <div class="contact-wrapper">
+
+    <!-- contact left -->
+    <form class="form-horizontal" role="form" method="post" action="assets/contact.php">
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="text" class="form-control" id="name" placeholder="NAME" name="name" value="">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <div class="col-sm-12">
+          <input type="email" class="form-control" id="email" placeholder="EMAIL" name="email" value="">
+        </div>
+      </div>
+
+      <textarea class="form-control" rows="10" placeholder="MESSAGE" name="message"></textarea>
+      <button class="btn bg-warning text-white send-button" id="submit" type="submit" value="SEND">
+        <div class="button">
+          <i class="fa fa-paper-plane"></i><span class="send-text">SEND</span>
+        </div>
+
+      </button>
+
+    </form>
+
+      <!-- contact right -->
+
+      <div class="direct-contact-container">
+
+        <ul class="contact-list">
+          <li class="list-item"><i class="fa fa-phone fa-2x"><span class="contact-text phone"><a href="tel:1-212-555-5555" title="Give me a call">0226443738</a></span></i></li>
+          <li class="list-item"><i class="fa fa-envelope fa-2x"><span class="contact-text gmail"><a href="mailto:#" title="Send me an email">moravy22@gmail.com</a></span></i></li>
+        </ul>
+
+        <hr>
+        <ul class="social-media-list">
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-github" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-linkedin" aria-hidden="true"></i></a>
+          </li>
+          <li><a href="#" target="_blank" class="contact-icon">
+            <i class="fa fa-google" aria-hidden="true"></i></a>
+          </li>
+        </ul>
+        <hr>
+      </div>
+  </div>
+  </section>
+</div>
+</div>
+  </body>
+</html>

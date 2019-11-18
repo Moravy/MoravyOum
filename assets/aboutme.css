@@ -1,0 +1,64 @@
+/* About me */
+
+
+.aboutme{
+  height: auto;
+  background-color:  rgb(238,238,238);
+  padding-bottom: 7%;
+
+}
+
+.aboutme .title{
+  text-align: center;
+  padding-top: 3%;
+  font-size: 50px;
+}
+.aboutme .something{
+  text-align: center;
+  padding-top: 100px;
+  font-size: 25px;
+}
+.example_b {
+color: #fff !important;
+text-transform: uppercase;
+text-decoration: none;
+background: rgb(27,36,47);
+padding: 20px;
+border-radius: 50px;
+display: inline-block;
+border: none;
+transition: all 0.4s ease 0s;
+}
+.example_b:hover {
+background-color: darkorange;
+text-shadow: 0px 0px 6px rgba(255, 255, 255, 1);
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.4s ease 0s;
+}
+@media  (min-width: 300px){
+  .aboutme .title{
+    padding-top: 3%;
+    font-size: 30px;
+  }
+  .aboutme .something{
+    text-align: center;
+    padding-top: 50px;
+    font-size: 20px;
+  }
+}
+@media  (min-width: 600px){
+
+}
+@media  (min-width: 760px){
+
+}
+@media  (min-width: 1000px){
+
+}
+@media  (min-width: 1200px){
+  .aboutme .title{
+    padding-top: 3%;
+    font-size: 50px;
+  }
+}

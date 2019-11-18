@@ -1,0 +1,269 @@
+/* project */
+.project{
+  height:auto;
+
+}
+.project .title{
+  text-align: center;
+  padding-top: 3%;
+  font-size: 50px;
+}
+
+
+.containers{
+  margin-left: 10%;
+  margin-right:10%;
+  width: auto;
+  padding-top: 3%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding-bottom: 120px;
+}
+.containers img{
+    margin: 20px ;
+    transition: all 1s;
+    width: 500px;
+    height: 500px;
+    opacity: 0.5;
+
+}
+.container {
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right:  auto;
+  margin-left:auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.container1 {
+
+  position: relative;
+  width: auto;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  font-size: 30%;
+  color: rgb(255,105,1);
+
+}
+
+.text2 {
+  color: darkorange;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container1:hover .overlay2 {
+  transition: .5s ease;
+  opacity: 0;
+
+}
+
+.overlay2 description{
+  color: black;
+  top:40%;
+  position: absolute;
+  text-align: center;
+  left: 10%;
+  right: 10%;
+  font-size: 30px;
+}
+
+.overlay {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: auto;
+  width: auto;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: rgb(47,47,47);
+}
+
+
+.container1:hover .overlay {
+  opacity: 1;
+}
+.text {
+  color: white;
+  font-size: 30px;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+description{
+  color: pink;
+  top:50%;
+  position: absolute;
+  left: 10%;
+  right: 10%;
+  font-size: 20px;
+}
+.image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+@media (min-width:320px) {
+  .project .title{
+    padding-top: 3%;
+    font-size: 30px;
+  }
+  .text2 {
+    font-size: 20px;
+
+  }
+  .overlay description{
+    top: 30%;
+    font-size: 15px;
+  }
+  .overlay2 description{
+    font-size: 18px;
+  }
+  .text {
+    top: 20%;
+    font-size: 18px;
+  }
+  .containers{
+  margin: 5%;
+  }
+  .container1 img{
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media (min-width:630px) {
+
+  .text2 {
+    font-size: 20px;
+
+  }
+  .overlay description{
+    top: 30%;
+    font-size: 15px;
+  }
+  .overlay2 description{
+    margin-top: auto;
+    font-size: 18px;
+  }
+  .text {
+    top: 20%;
+    font-size: 18px;
+  }
+  .containers{
+  margin: 5%;
+  }
+  .container1 img{
+    width: 210px;
+    height: 210px;
+  }
+}
+
+@media (min-width:700px) {
+  .text2 {
+    font-size: 27px;
+
+  }
+  .overlay description{
+    top: 40%;
+    font-size: 20px;
+  }
+  .overlay2 description{
+
+    font-size: 25px;
+  }
+  .text {
+    top: 20%;
+    font-size: 25px;
+  }
+  .containers{
+  margin: 2%;
+  }
+  .container1 img{
+    width: 300px;
+    height: 300px;
+  }
+}
+@media (min-width:1000px) {
+  .text2 {
+    font-size: 30px;
+
+  }
+  .overlay description{
+    top: 40%;
+    font-size: 25px;
+  }
+  .overlay2 description{
+    top: 50%;
+    font-size: 30px;
+  }
+  .text {
+    top: 20%;
+    font-size: 30px;
+  }
+  .containers{
+  margin: 2%;
+  }
+  .container1 img{
+    width: 400px;
+    height: 400px;
+  }
+
+}
+@media (min-width:1200px) {
+  .project .title{
+    padding-top: 3%;
+    font-size: 50px;
+  }
+  .text2 {
+    font-size: 30px;
+
+  }
+  .overlay description{
+    top: 40%;
+    font-size: 25px;
+  }
+  .overlay2 description{
+    top: 50%;
+    font-size: 30px;
+  }
+  .text {
+    top: 20%;
+    font-size: 30px;
+  }
+  .containers{
+  margin: 5%;
+  }
+  .container1 img{
+    width: 400px;
+    height: 400px;
+  }
+}
